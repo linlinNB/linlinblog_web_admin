@@ -29,7 +29,7 @@ const loginPage = observer((props) => {
   return (
     <div className={styles.loginPageContent}>
       <div className={styles.loginGroupContent}>
-        <div className={styles.companyTitle}>测试自动部署后台管理系统</div>
+        <div className={styles.companyTitle}>博客后台管理系统</div>
         <div className={styles.loginGroupTitle}>登录</div>
         <div>
           <LoginProjectForm onSubmit={handleLoginSubmit} />
