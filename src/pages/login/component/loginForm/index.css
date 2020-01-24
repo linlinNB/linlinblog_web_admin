@@ -1,0 +1,52 @@
+.loginFormContent {
+  text-align: center;
+}
+.loginFormContent :global(.ant-input-affix-wrapper .ant-input:focus) {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px #cfdeee solid !important;
+  border-radius: 0;
+  background: none;
+}
+.loginFormContent :global(.ant-form-item label) {
+  color: #FFFFFF;
+}
+.loginFormContent :global(.ant-input) {
+  border: none;
+  border-bottom: 1px #cfdeee solid;
+  color: #A0B2C5;
+  height: 40px;
+  font-size: 14px;
+  width: 320px;
+  outline: none;
+  border-radius: 0;
+}
+.loginFormContent :global(.has-error .ant-input-affix-wrapper .ant-input) {
+  width: 320px;
+  border: none;
+  border-bottom: 1px #cfdeee solid;
+  color: #A0B2C5;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 0;
+  outline: none;
+}
+.loginFormContent :global(.ant-form-explain) {
+  margin-top: 0;
+  font-size: 12px;
+  left: 0;
+}
+.loginFormContent :global(.has-error .ant-form-explain) {
+  text-align: left;
+  margin-left: 30px;
+}
+.loginFormContent .loginGroupBtn {
+  width: 320px;
+  height: 48px;
+  text-align: center;
+  background-image: url("../../../../assets/login/loginBtnBg.png");
+  background-size: 320px 48px;
+  border-radius: 24px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=index.css.map */

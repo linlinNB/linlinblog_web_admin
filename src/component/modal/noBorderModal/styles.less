@@ -1,0 +1,28 @@
+.noBorderModalContainer {
+  :global(.ant-modal-footer) {
+    display: none;
+  }
+  :global(.ant-modal-body) {
+    padding: 25px;
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+  }
+  :global(.ant-modal-content) {
+    position: relative;
+    background:rgba(255,255,255,1);
+    border-radius:12px;
+    border:1px solid rgba(243,243,243,1);
+  }
+
+  .modalCloseBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+  }
+
+  .middleContainer {
+    min-height: 250px;
+  }
+}

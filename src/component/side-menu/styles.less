@@ -1,0 +1,84 @@
+
+//// 对应侧边栏目的整体样式, 需要注意侧边应该具有一定的弹性布局
+.sideContainer {
+  min-width: 280px;
+  height: 100%;
+  z-index: 1;
+  background-color: #FFFFFF;
+  border: none;
+
+  // 覆盖antd每个menuItem的默认样式
+  :global{
+    .ant-menu-item {
+      color: #84AAC2;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      background-color: #FFFFFF;
+      height: 56px;
+      line-height: 56px;
+      vertical-align: middle;
+      a {
+        overflow: hidden;
+        min-width: 20px;
+        min-height: 56px;
+        color: #84AAC2;
+      }
+      span {
+        vertical-align: middle;
+        margin-left: 20px;
+        font-size: 16px;
+        font-family:PingFang-SC-Medium,PingFang-SC;
+      }
+
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .ant-menu-sub.ant-menu-inline > .ant-menu-item {
+      height: 56px;
+      line-height: 56px;
+      vertical-align: middle;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+
+    .ant-menu-submenu-title {
+      color: #84AAC2;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      background-color: #FFFFFF;
+      height: 56px;
+      line-height: 56px;
+      vertical-align: middle;
+
+      img {
+        width: 16px;
+        height: 16px;
+      }
+
+      span {
+        vertical-align: middle;
+        font-size: 16px;
+        font-family:PingFang-SC-Medium,PingFang-SC;
+        margin-left: 20px;
+      }
+    }
+
+      //// 设置选中时的样式，也是覆盖antd的默认样式
+      //.ant-menu-item.ant-menu-item-selected {
+      //  color: #5897FF;
+      //  //background-color: #FFFFFF;
+      //  background-color: #5897FF;
+      //
+      //  span {
+      //    vertical-align: middle;
+      //  }
+      //}
+  }
+}
+

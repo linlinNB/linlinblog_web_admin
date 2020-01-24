@@ -1,0 +1,91 @@
+.errorElectricMeterStatusCardContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  position: relative;
+  border: 1px solid #DEE2F1;
+  //box-shadow:0px 0px 7px 0px rgba(235,233,241,1);
+  //border-radius:8px;
+
+  .cardHeaderGroup {
+    flex-shrink: 1;
+    width: 160px;
+    height: 100%;
+    //background: #FF4F48;
+    border-right: 1px solid #DEE2F1;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    color: #FF4F48;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    //box-shadow:0px 0px 7px 0px rgba(235,233,241,1);
+    //border-radius:8px 0px 0px 8px;
+    //border-radius:2px 0px 0px 2px;
+
+    .titleHeaderImg {
+      width: 36px;
+      height: 36px;
+      background-size: 36px 36px;
+      background-image: url("../../../assets/card/errorElectricMeterStatusCard/errorStatusCardHeaderGroupBg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 10px;
+    }
+  }
+
+  .cardDetailGroup {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+
+    .hr {
+      background: #DEE2F1;
+      height: 80px;
+      width: 1px;
+    }
+
+    .cardDetailGroupItem {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 12px;
+      color: #9B9DA5;
+
+      .detailInfoGroup {
+        color: #FF4F48;
+        font-size: 16px;
+
+        &>span:first-child {
+          font-size: 36px;
+        }
+      }
+    }
+
+    .normalStatusColor {
+      color: #569CFC;
+    }
+  }
+
+  .messageToDetailGroup {
+    color: #FF4F48;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 14px;
+    font-weight:bold;
+    &>a {
+      color: #FF4F48;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.payFormContent {
+  padding: 25px;
+  .hr {
+    width: 100%;
+    border: 1px solid #DEE2F1;
+  }
+  .headerGroup {
+    position: relative;
+    width: 100%;
+    height: 78px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerGroupItem {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: #9B9DA5;
+      &>div:first-child {
+        margin: 0 10px 0 5px;
+      }
+
+      .electricMeterName {
+        color: #5797F4;
+        font-size: 16px;
+      }
+
+      .electricMeterIcon {
+        width: 27px;
+        height: 28px;
+        background: url("../../../assets/form/deviceStatusForm/electricMeterIcon.png") center no-repeat;
+        background-size: 27px 28px;
+      }
+
+      .electricMeterStatus {
+        width: 72px;
+        height: 28px;
+        background: #F4F4F4;
+        color: #FF4F48;
+        font-size: 16px;
+        border-radius: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .middleGroup {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0 20px 0;
+
+    .middleGroupItem {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: #9B9DA5;
+      margin: 10px 0;
+
+
+      .roomInfo {
+        font-size: 16px;
+        color: #4F5467;
+      }
+
+      .kwhInfo {
+        font-size: 16px;
+      }
+
+      .moneyInfo {
+        font-size: 16px;
+        //color: #FF4F48;
+      }
+    }
+  }
+
+  .payFormBtnGroup {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    .submitBtn {
+      width: 120px;
+      height: 42px;
+      margin: 0 15px;
+    }
+
+    .cancelBtn {
+      width: 120px;
+      height: 42px;
+      background: #FFFFFF;
+      color: #9B9DA5;
+      border: 1px solid #9B9DA5;
+      font-weight: bold;
+      margin: 0 15px;
+    }
+  }
+}
