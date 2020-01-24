@@ -1,0 +1,48 @@
+.errorMeterListTotalStatusCardContainer .cardItem {
+  background: #FFFFFF;
+  color: #9B9DA5;
+  width: 100%;
+  height: 72px;
+  border: 1px solid #dee2f1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.errorMeterListTotalStatusCardContainer .cardItem .cardLabel {
+  flex-shrink: 0;
+  width: 112px;
+  height: 100%;
+  border-right: 1px solid #dee2f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.errorMeterListTotalStatusCardContainer .cardItem .cardDetailInfo {
+  width: 100%;
+  color: #FF4F48;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bold;
+  height: 50px;
+}
+.errorMeterListTotalStatusCardContainer .cardItem .cardDetailGroupItem {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  color: #9B9DA5;
+}
+.errorMeterListTotalStatusCardContainer .cardItem .cardDetailGroupItem .detailInfoGroup {
+  color: #FF4F48;
+  font-size: 16px;
+}
+.errorMeterListTotalStatusCardContainer .cardItem .cardDetailGroupItem .detailInfoGroup > span:first-child {
+  font-size: 36px;
+}
+/*# sourceMappingURL=styles.css.map */

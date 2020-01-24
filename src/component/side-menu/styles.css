@@ -1,0 +1,35 @@
+.sideContainer {
+  min-width: 395px;
+  height: 100%;
+  z-index: 1;
+  background-color: #FFFFFF;
+}
+.sideContainer :global .ant-menu-item {
+  color: #84AAC2;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+}
+.sideContainer :global .ant-menu-item a {
+  overflow: hidden;
+  min-width: 20px;
+  color: #84AAC2;
+}
+.sideContainer :global .ant-menu-item span {
+  vertical-align: middle;
+}
+.sideContainer :global .ant-menu-submenu-title {
+  color: #84AAC2;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=index.css.map */

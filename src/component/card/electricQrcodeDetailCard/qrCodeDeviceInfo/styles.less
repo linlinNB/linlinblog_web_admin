@@ -1,0 +1,119 @@
+.hr {
+  width: 100%;
+  height: 6px;
+  background: #F1F3F9;
+  margin: 15px 0;
+}
+
+.modalHeaderContainer {
+  height: 100%;
+  font-size:13px;
+  font-family:PingFang-SC-Medium,PingFang-SC;
+  font-weight:500;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  &>img {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+}
+
+.qrcodeDeviceInfoContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex: 2;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+
+  .qrCodeGroup {
+    font-size: 13px;
+    text-align: center;
+    width: 200px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    padding: 15px 0;
+
+    &>div:last-child {
+      color: #5897F5;
+      margin-top: 5px;
+    }
+  }
+
+  .deviceGroup {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    .electricOnOffStatus {
+      margin: 10px 0;
+      border: 1px solid #DEE2F1;
+      border-radius: 30px;
+      height: 60px;
+      width: 208px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+
+      &>span:last-child {
+        font-size: 20px;
+        margin-left: 15px;
+      }
+
+      .normalStatus {
+        color: #5897F5;
+      }
+
+      .errorStatus {
+        color: #FF4F48;
+      }
+    }
+
+    .electricAddr {
+      margin: 10px 0;
+      height: 30px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
+      color: #9B9DA5;
+
+      .electricAddrIcon {
+        width: 18px;
+        height: 18px;
+        background: url("../../../../assets/card/electricQrcodeDetailCard/electricAddrIcon.png") center no-repeat;
+        background-size: 18px;
+        margin: 10px;
+      }
+
+      &>span:last-child {
+        color: #5897F5;
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    }
+
+    .electricId {
+      margin: 10px 0;
+      width: 240px;
+      height: 32px;
+      background: #DEE2F1;
+      border-radius: 16px;
+      opacity: 0.5;
+      font-size: 13px;
+      color: #9196A8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  flex: auto;
+}
+.content .container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  margin: 12px 20px 0;
+  height: 100%;
+}
+.content .container .childContainer {
+  position: relative;
+  flex: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.content .container .childContainer > div {
+  flex: 1 1;
+  width: 100%;
+  height: 100%;
+}
+.projectLayoutContainer {
+  height: 100vh;
+}
+.projectLayoutContainer .pageMiddleContent {
+  padding: 20px 20px 0 20px;
+}
+/*# sourceMappingURL=index.css.map */

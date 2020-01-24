@@ -1,0 +1,65 @@
+.loginPageContent {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../assets/login/loginGroupBgN.png");
+}
+.loginPageContent .companyTitleUpImg {
+  width: 327px;
+  height: 20px;
+  position: absolute;
+  background: url("../../assets/login/companyTitleUpBg.png") center no-repeat;
+}
+.loginPageContent .companyTitleDownImg {
+  width: 327px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url("../../assets/login/companyTitleDownBg.png") center no-repeat;
+}
+.loginPageContent .companyTitle {
+  color: #FFFFFF;
+  font-size: 48px;
+  position: absolute;
+  font-family: PingFang-SC-Light, PingFang-SC;
+  font-weight: 300;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  white-space: nowrap;
+}
+.loginPageContent .companyBgImg {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background: url("../../assets/login/companyBgN.png") center no-repeat;
+  background-size: 120px 40px;
+}
+.loginPageContent .loginGroupContent {
+  position: absolute;
+  box-shadow: 0px 4px 16px 0px rgba(24, 106, 192, 0.52);
+  border-radius: 13px;
+  border: 1px solid #edeff5;
+  background: #FFFFFF;
+  width: 440px;
+  height: 424px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.loginPageContent .loginGroupContent .loginGroupTitle {
+  margin: 40px 0;
+  font-size: 32px;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 300;
+  color: #7F94AA;
+  line-height: 50px;
+}
+/*# sourceMappingURL=index.css.map */

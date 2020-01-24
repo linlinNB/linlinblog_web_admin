@@ -1,0 +1,7 @@
+.footerLayoutContent {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: center;
+}
+/*# sourceMappingURL=index.css.map */

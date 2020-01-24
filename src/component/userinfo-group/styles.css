@@ -1,0 +1,57 @@
+.container {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  flex: 3;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .exitProject {
+  width: 28px;
+  height: 28px;
+  background-image: url("../../assets/header/exit.png");
+  background-repeat: no-repeat;
+  background-size: 28px;
+  background-position: center;
+}
+.container .messageIcon {
+  width: 22px;
+  height: 28px;
+  background-image: url("../../assets/header/message.png");
+  background-size: 22px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container .testGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .testGroup .userImg {
+  margin-right: 15px;
+  width: 38px;
+  height: 38px;
+  background-size: 38px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/userIcon/icon.png);
+}
+.container .testGroup .infoGroupContainer {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #FFFFFF;
+  height: 60px;
+  line-height: 20px;
+}
+.container .testGroup .infoGroupContainer div:first-child {
+  font-size: 14px;
+}
+.container .testGroup .infoGroupContainer div:last-child {
+  font-size: 11px;
+}
+/*# sourceMappingURL=styles.css.map */

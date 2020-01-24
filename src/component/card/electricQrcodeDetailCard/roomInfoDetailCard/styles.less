@@ -1,0 +1,50 @@
+.roomInfoDetailCardContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	padding: 30px 0;
+
+	.headerGroup {
+		width: 100%;
+		font-size: 13px;
+		color: #A4A9B8;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+
+		.roomInfoIcon {
+			background: url("../../../../assets/card/electricQrcodeDetailCard/roomInfoIcon.png") no-repeat center;
+			background-size: 18px;
+			width: 18px;
+			height: 18px;
+			margin: 10px;
+		}
+	}
+
+	.deviceRoomName {
+		font-size: 24px;
+		color: #4F5467;
+		text-align: center;
+	}
+
+	.bindDevicehumanNum {
+		color: #BDC2D4;
+		font-size: 12px;
+		margin-top: 30px;
+
+		& > span:last-child {
+			margin-left: 10px;
+		}
+
+		.normalStatus {
+			color: #5897F5;
+		}
+
+		.errorStatus {
+			color: #FF4F48;
+		}
+	}
+}
