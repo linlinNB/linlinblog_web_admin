@@ -1,5 +1,5 @@
 const apiConfig = {
-  'project.login': 'POST /api/admin/login',
+  'project.login': 'POST /user/login',
   // 测试使用路由
   'test.create': 'POST /api/test/create',
   'test.update': 'GET /api/test/:testId',

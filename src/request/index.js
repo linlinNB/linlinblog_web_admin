@@ -35,7 +35,7 @@ const defaultAxiosConfig = {
 
 // 默认的baseURL
 const baseURL =
-  process.env.NODE_ENV !== 'production' ? 'http://localhost:3000' : 'https://zsdbs.zizilaidian.com';
+  process.env.NODE_ENV !== 'production' ? 'http://localhost:7001' : 'https://zsdbs.zizilaidian.com';
 // const baseURL = 'http://localhost:3000';
 
 // 对于'Method Api'的方式进行拆分

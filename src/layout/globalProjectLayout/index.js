@@ -38,8 +38,7 @@ const GlobalProjectLayout = observer((props) => {
   }, [globalStore]);
 
   useEffect(() => {
-    dispatchProjectBuildingList();
-  }, [dispatchProjectBuildingList]);
+  }, []);
 
   const renderLazySupRoutes = () => (
     <Suspense fallback={<PageLoading />}>

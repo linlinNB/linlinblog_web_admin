@@ -1,14 +1,12 @@
 import React, { useContext } from 'react';
-import { observer } from 'mobx-react-lite';
 import LoginProjectForm from './component/loginForm';
-import { globalStoreContext } from '../../store';
 import { ProjectService } from '../../service';
 import { setLocalStorage } from '../../utils/utils';
 
 import styles from './index.less';
 
-const loginPage = observer((props) => {
-  const globalStore = useContext(globalStoreContext);
+const loginPage = (props) => {
+  const globalStore = {};
 
   const handleLoginSubmit = async (values) => {
     globalStore.setLoadingStatus();
@@ -40,6 +38,6 @@ const loginPage = observer((props) => {
       </div>
     </div>
   );
-});
+}
 
 export default loginPage;
