@@ -61,15 +61,15 @@ export const projectRoutes = {
   'project.test': {
     path: '/project/test',
     name: '项目功能测试页面',
-    component: lazy(() => import('../pages/test')),
-  },
+    component: lazy(() => import('../pages/test'))
+  }
 };
 
 export const formatToArray = () => {
   const result = Object.keys(projectRoutes).map((projectRouteKey) => {
     const tempRouteItem = {
       ...projectRoutes[projectRouteKey],
-      key: projectRouteKey,
+      key: projectRouteKey
     };
     return tempRouteItem;
   });

@@ -10,5 +10,3 @@ export const projectLogin = (params) => request('project.login', params);
  * @returns {Promise<T>}
  */
 export const projectBuildingList = (params = {}) => request('project.building.list', params);
-
-export const projectLogout = (url, params) => request(url, params);

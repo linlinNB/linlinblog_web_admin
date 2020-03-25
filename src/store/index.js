@@ -3,5 +3,5 @@ import globalStoreContext from './global';
 
 export {
   testStoreContext,
-  globalStoreContext,
+  globalStoreContext
 };

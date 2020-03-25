@@ -7,7 +7,7 @@ const PageLoading = (props) => {
   const defaultProps = {
     message: '加载中...',
   };
-  // eslint-disable-next-line no-unused-vars
+  // eslint-disable-next-line no-unused-vars,react/prop-types
   const message = props.message || defaultProps.message;
   // style={props.isShow ? {} : { display: 'none' }}
   return (

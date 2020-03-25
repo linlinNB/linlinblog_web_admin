@@ -11,7 +11,7 @@ import ProjectRoutes from './Router';
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri: 'http://127.0.0.1:7001/graphql',
+    uri: 'http://127.0.0.1:7001/graphql'
   })
 });
 

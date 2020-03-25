@@ -1,32 +1,28 @@
 import React from 'react';
 import { observer } from 'mobx-react-lite';
-// eslint-disable-next-line no-unused-vars
-import { Menu, Dropdown, Icon } from 'antd';
+import { Menu, Icon } from 'antd';
 import { formatUserPhoneNumber, clearLocalStorage } from '../../utils/utils';
 import styles from './styles.less';
 
 const userInfoGroup = observer((props) => {
   // 强制进行路由跳转，在登出操作之后，强制跳转projectManage.login
-  // eslint-disable-next-line no-unused-vars
   const handleProjectLogout = async () => {};
 
   // 强制跳转到userManage.update页面
-  // eslint-disable-next-line no-unused-vars
-  const handleUserUpdateInfo = () => {};
+  // const handleUserUpdateInfo = () => {};
 
-  // eslint-disable-next-line no-unused-vars
-  const renderDropdownMenu = () => (
-    <Menu>
-      <Menu.Item onClick={handleUserUpdateInfo}>
-        <Icon type="user" />
-        修改密码
-      </Menu.Item>
-      <Menu.Item onClick={handleProjectLogout}>
-        <Icon type="logout" />
-        退出登录
-      </Menu.Item>
-    </Menu>
-  );
+  // const renderDropdownMenu = () => (
+  //   <Menu>
+  //     <Menu.Item onClick={handleUserUpdateInfo}>
+  //       <Icon type="user" />
+  //       修改密码
+  //     </Menu.Item>
+  //     <Menu.Item onClick={handleProjectLogout}>
+  //       <Icon type="logout" />
+  //       退出登录
+  //     </Menu.Item>
+  //   </Menu>
+  // );
 
   const handleLogout = () => {
     clearLocalStorage('loginUserInfo');
