@@ -138,7 +138,7 @@
     ]
   },
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "mobx-react-lite": "^1.5.2",
     "moment": "^2.24.0",
     "react-document-title": "^2.0.3",
